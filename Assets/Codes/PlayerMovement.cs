@@ -11,7 +11,7 @@ public float speed = 12f;
 public float gravity = -9.81f;
 public bool playerControl = true;
 
-
+[SerializeField] Animator playerAnim;
 Vector3 falling;
 
     void Start()
@@ -25,6 +25,7 @@ Vector3 falling;
         if (Input.anyKey){
             if (Input.GetKey("w")||Input.GetKey("a")||Input.GetKey("s")||Input.GetKey("d")){
                 controller.Move(move*speed*Time.deltaTime);     //Fix this one, it make movement feel horrible.
+                playerAnim.SetTrigger("walk");
             }
         }
         falling.y = gravity*Time.deltaTime;
