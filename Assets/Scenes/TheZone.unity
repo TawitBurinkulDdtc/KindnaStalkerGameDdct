@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -6879,6 +6880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tagName: Anomally
   deadUi: {fileID: 339327008}
+  pm: {fileID: 1470829933}
 --- !u!136 &438014474
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12109,6 +12111,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &682075788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21589,6 +21592,7 @@ MonoBehaviour:
   speed: 12
   gravity: -9.81
   playerControl: 1
+  playerAnim: {fileID: 0}
 --- !u!1 &1474915271
 GameObject:
   m_ObjectHideFlags: 0
