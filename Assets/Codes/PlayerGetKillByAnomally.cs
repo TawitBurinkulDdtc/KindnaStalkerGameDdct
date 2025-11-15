@@ -9,7 +9,7 @@ public class PlayerGetKillByAnomally : MonoBehaviour
     void OnTriggerEnter(Collider other){
        if(other.gameObject.tag == tagName){
             deadUi.SetActive(true);
-            pm.gravity = 9.8f;
+            pm.gravity = 30.0f;
         }
     }
 }

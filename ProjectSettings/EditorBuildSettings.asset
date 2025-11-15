@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheZone 2.unity
     guid: cc91215d527032c44b73a5b85300214d
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 129a17a004ca4f64a8370e4001ce243e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
